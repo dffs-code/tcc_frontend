@@ -1,0 +1,232 @@
+@import "../../global.css";
+
+.main-header-card img {
+  display: block;
+  margin: 0 auto;
+}
+
+.main-form .MuiFormControl-root {
+  margin: 10px 0;
+  min-width: 100px;
+}
+.btn-register {
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
+  transition: all ease-in-out 0.2s;
+  text-transform: none!important;
+}
+.btn-register:hover {
+  background-color: var(--primary-hover) !important;
+}
+.btn-register-secondary {
+  background-color: var(--secondary-color) !important;
+  color: #fff !important;
+  transition: all ease-in-out 0.2s;
+  text-transform: none!important;
+}
+.btn-register-secondary:hover {
+  background-color: var(--secondary-hover) !important;
+}
+.user_group {
+  justify-content: space-evenly;
+}
+.user_group span {
+  font-size: 13px;
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  transition: all ease-in-out 0.2s;
+}
+.user_group .icon {
+  padding: 20px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 80px;
+  background-color: #a3a3a3;
+  transition: all ease-in-out 0.2s;
+}
+.student,
+.teacher {
+  cursor: pointer;
+}
+.student.hover .icon {
+  background-color: var(--primary-color);
+  opacity: 0.7;
+}
+.teacher.hover .icon {
+  background-color: var(--secondary-color);
+  opacity: 0.7;
+}
+
+.teacher.active .icon {
+  background-color: var(--secondary-color);
+  opacity: 1;
+}
+.student.active .icon {
+  background-color: var(--primary-color);
+  opacity: 1;
+}
+
+.student.active span {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.teacher.active span {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.control-form {
+  margin: 1.2em;
+}
+
+/* Sobrescrevendo valores padrão Material UI */
+.MuiInput-underline:after {
+  border-bottom: 2px solid var(--primary-color) !important;
+}
+.MuiFormLabel-root.Mui-focused {
+  color: var(--primary-color) !important;
+}
+.MuiCheckbox-colorSecondary.Mui-checked,
+.MuiIconButton-colorSecondary {
+  color: var(--primary-color) !important;
+}
+.MuiCheckbox-colorSecondary.Mui-checked:hover,
+.MuiIconButton-colorSecondary:hover {
+  background-color: rgba(73, 197, 182, 0.1%) !important;
+}
+.MuiStepper-alternativeLabel {
+  background-color: unset !important;
+}
+.MuiStepIcon-root.MuiStepIcon-active {
+  color: var(--primary-color) !important;
+}
+.MuiStepIcon-root.MuiStepIcon-completed {
+  color: var(--primary-hover) !important;
+}
+.MuiStepConnector-root {
+  display: none !important;
+}
+.steppers .MuiSvgIcon-root {
+  font-size: 2.5rem !important;
+}
+
+.erase_avatar{
+  background-color: #E53E3E;
+  font-size: .85rem;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 50px;
+  color: #fff;
+  display: block;
+  margin: 0 auto 15px;
+  transition: all ease-in-out .2s;
+}
+.erase_avatar:hover{
+  cursor: pointer;
+  filter: brightness(.8);
+}
+.erase_avatar:hover svg{
+  font-size: 16px;
+
+}
+
+
+.erase_avatar svg{
+  transition: all ease-in-out .2s;
+
+  font-size: 15px;
+  margin-bottom: 1.5px;
+}
+
+#stepper-content div div div div > a,
+#stepper-content div div div div > span {
+  line-height: 36px !important;
+}
+#forms-internos {
+  width: 100%;
+  display: block;
+  margin: 30px auto;
+}
+#stepper-content,
+#forms-internos .form-content {
+  width: 40%;
+  display: block;
+  margin: 0 auto 25px;
+}
+
+/* SEGUNDO PASSO PROFESSOR INICIO */
+#moreabout {
+  width: 100%;
+}
+
+#teacher_tips{
+  left: 5%;
+  top: 20%;
+  max-width: 20%;
+}
+
+#teacher_tips img{
+  max-width: 100%;
+  margin: 0 auto 20px;
+  display: block;
+  width: 250px;
+}
+
+#teacher_tips ul {
+  font-size: .9rem;
+  font-weight: 500;
+  list-style: disc;
+  display: block;
+  list-style-type: circle;
+}
+
+#teacher_tips ul li {
+  margin: 10px 0 30px;
+}
+
+/* SEGUNDO PASSO PROFESSOR FIM */
+
+/* CRIAR CARD INICIO*/
+#new_card {
+  width: 100%;
+}
+#new_card .card-preview {
+  max-width: 50%;
+}
+#price_hour .MuiInput-underline:before,
+#price_hour .MuiInput-underline:after {
+  display: none !important;
+}
+#price_hour p {
+  margin-bottom: 0;
+  color: #a4a4a4;
+  cursor: text;
+  display: inline-flex;
+  position: relative;
+  font-size: 1rem;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.1876em;
+  letter-spacing: 0.00938em;
+}
+#new_card #card_teacher{width: 390px;}
+
+/* CRIAR CARD FIM*/
+
+@media (max-width: 1100px){
+  #stepper-content,
+  #forms-internos .form-content {
+    width: 95%;
+    display: block;
+    margin: 0 auto 25px;
+  }
+  #forms-internos .MuiPaper-elevation1{box-shadow: none!important;}
+  #more_about .mobileWrap{ flex-flow: column-reverse; }
+
+  #more_about #teacher_tips{ position: relative!important; width: 100%; text-align: center; max-width: 100%; top: unset; left: unset; padding: 0 3rem; margin-top: 4rem;}
+  #new_card .card-preview, #new_card .card-teacher{width: 90%; max-width: 100%;}
+  #new_card .card-teacher{margin-bottom: 4rem;}
+}

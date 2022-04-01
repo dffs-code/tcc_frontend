@@ -1,0 +1,33 @@
+#teacher-profile .fixed-content{ width: 300px; position: fixed; z-index: 1;overflow: auto; height: 600px; }
+#teacher-profile .fixed-content.chat{ right: 0; }
+#teacher-profile .main-content{margin-left: 300px; margin-right: 300px;height: 100vh;}
+
+#teacher-profile .iconlist{color: var(--primary-hover); font-size: 18px;}
+#teacher-profile .golden-star{color: #e5c100; font-size: 25px;}
+#teacher-profile .content-image > div{height: 150px; width: 150px;}
+
+#teacher-profile .rating-tag .total{font-size: .9rem; font-weight: bold; }
+#teacher-profile .MuiRating-root{font-size: 1.4rem!important; }
+#teacher-profile .MuiBox-root {margin-bottom: unset;}
+
+#teacher-profile .materia-tag{padding: 3px 10px; border-radius: 30px; background-color: #d5edec; justify-content: flex-end; cursor: pointer;}
+#teacher-profile .materia-tag p{margin-bottom: unset;}
+
+#teacher-profile h6{ color: var(--primary-color); font-weight: bold; font-size: 19px;}
+#teacher-profile .subjects h6 { margin-bottom: 0;}
+#teacher-profile .about-teacher .more{ margin-top: 20px; font-weight: bold; color: var(--primary-color); transition: all ease-in-out .2s;}
+#teacher-profile .about-teacher .more:hover{ color: var(--primary-hover); cursor: pointer;}
+#teacher-profile .about-disable{ font-size: 12px; color: rgb(128, 128, 128);}
+#teacher-profile .materia-container{ border: 1px solid transparent; padding: 5px; box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 24px, rgba(17, 17, 26, 0.05) 0px 16px 56px; position: relative; display: flex;}
+#teacher-profile .MuiSelect-select:focus{ background-color: #fff;}
+#teacher-profile .MuiInput-underline:before, #teacher-profile .MuiInput-underline:after{ display: none!important;}
+#teacher-profile .MuiSelect-icon { color: var(--secondary-color)!important;}
+#teacher-profile .form-materia { width: 50%; align-self: center;}
+#teacher-profile .rating-subject { width: 50%; align-self: center;}
+
+#materia_selector { padding: 12px; color: var(--secondary-color); font-weight: 700; }
+#materia_selector .MuiListItem-root.Mui-selected, #materia_selector .MuiListItem-root.Mui-selected:hover { background-color: rgba(255, 101, 133, 0.08)!important;}
+
+@media screen and (max-width: 1700px) {
+    #teacher-profile .about li{ font-size: 15px;}
+}

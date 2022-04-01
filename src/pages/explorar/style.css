@@ -1,0 +1,20 @@
+#search_cards h2{ font-size: 1.2rem; font-weight: 700;} 
+#search_cards .filtro_hora{ width: 40%;} 
+#search_cards .tip{ color: var(--primary-color); font-size: 0.8rem;} 
+#search_cards .card-teacher-unique { width: 27%; margin: 1% 2% 4% 2%; transition: all ease-in-out .3s; padding: 6px;}
+#search_cards .card-teacher-unique:hover { cursor: pointer;}
+#search_cards .btn-filter{ border-radius: 10px;}
+
+/* OVERRIDE MATERIAL UI */
+#search_cards .MuiTypography-body1{ font-size: 0.74rem;}
+#search_cards .MuiSlider-root{  color: var(--primary-color)!important; }
+#search_cards .filtros_geral .cards-filters .desktop-none{display: none;}
+
+@media (max-width: 1100px){
+    #search_cards .card-teacher-unique{width: 95%;}
+    #search_cards .filtros_geral>div>h2{display: none;}
+    #search_cards .filtros_geral .cards-filters .mobile-none{display: none;}
+    #search_cards .filtros_geral .cards-filters{margin-top: 0!important;}
+}
+
+

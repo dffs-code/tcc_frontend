@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+#index .content {
+  padding: 1% 8%;
+}
+
+#index #card_teacher{
+  margin: 20px;
+  min-width: 300px;
+}
+
+.banner {
+  background-image: url("../../img/banner.jpg");
+  background-size: cover;
+
+  width: 100%;
+  height: 448px;
+}
+
+.body-principal .text {
+  max-width: 70%;
+}
+#index .body-principal .text {
+  width: 50rem;
+}
+
+.inputSearch {
+  border-radius: 10px;
+}
+
+.inputSearch input {
+  transition: all ease-in-out 0.2s;
+  background: #fff;
+  transition: 0.5s;
+}
+
+.inputSearch input:focus {
+  background-color: #f8f8f8;
+}
+
+.indexInput {
+  width: 90%;
+  height: 40px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: #595959;
+}
+
+.searchBtn{
+  position: relative;
+  width: 3rem;
+  height: 40px;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 0 10px 10px 0;
+  transition: all ease-in-out 0.2s;
+}
+
+.searchBtn:hover {
+  background-color: var(--secondary-hover);
+}
+
+.searchBtn .search-icon {
+  font-size: 0.875rem;
+  color: #fff;
+}
+
+
+.popular-subjects h3 {
+  font-weight: bold;
+}
+
+#index .subjects-content .content-image > div {
+  border-radius: unset!important;
+  margin: 0 10px 10px 0;
+}
+.content-image > div {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+.materias .right-content span,
+.materias .tag {
+  font-size: 0.9rem;
+  background-color: #d5edec;
+  border-radius: 30px;
+  color: #009f8f;
+  font-weight: 700;
+}
+.materias .right-content span {
+  padding: 20px 10px;
+}
+.materias .tag span {
+  padding: 20px 10px;
+}
+
+.btn-materia {
+  background-color: var(--secondary-color) !important;
+  color: #fff !important;
+  width: 300px;
+  display: block !important;
+  margin: 0 auto !important;
+  position: absolute !important;
+  left: 50%;
+  bottom: 4%;
+  margin-left: -150px !important;
+  /* Esse margin left é para centralizar, ele é metade do tamanho do elemento (300px) */
+  border-radius: 30px !important;
+}
+.rec-arrow-right:hover:enabled,
+.rec-arrow-left:hover:enabled {
+  background-color: var(--primary-color) !important;
+}
+.rec-arrow-right:focus:enabled,
+.rec-arrow-left:focus:enabled {
+  background-color: var(--primary-hover) !important;
+}
+.slider {
+  -webkit-box-shadow: 4px 4px 6px 1px rgb(0 0 0 / 35%);
+  box-shadow: 4px 4px 6px 1px rgb(0 0 0 / 35%);
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 15px;
+}
+.slider.materias {
+  min-height: 400px;
+  height: 100%;
+}
+
+.btn-professor {
+  background-color: var(--secondary-color) !important;
+  color: #fff !important;
+  width: 150px;
+  display: block !important;
+  margin: 0 auto !important;
+  position: absolute !important;
+  left: 50%;
+  bottom: 4%;
+  margin-left: -75px !important;
+  /* Esse margin left é para centralizar, ele é metade do tamanho do elemento (300px) */
+  border-radius: 10px !important;
+}
+
+.slider.professores {
+  min-height: 450px;
+  height: 100%;
+}
+
+.professores .slide-body h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.legenda-avaliacao {
+  font-size: 0.9rem !important;
+  justify-content: flex-end !important;
+  font-weight: bold !important;
+  text-align: right;
+}
+.MuiRating-root {
+  color: #000 !important;
+  font-size: 1rem !important;
+}
+
+.benefits li {
+  border: 1px solid transparent;
+  border-radius: 15px;
+  box-shadow: 4px 4px 6px 1px rgb(0 0 0 / 35%);
+  margin-right: 5%;
+  padding: 20px 35px 10px;
+  transition: all ease .2s;
+  width: 25%;
+}
+.benefits li h3{
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15%;
+}
+.benefits li:hover {
+  transform: scale(1.01);
+}
+.benefits li .icone {
+  text-align: center;
+  font-size: 35px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1366px) {
+  .illustration {
+    width: 1366px;
+  }
+
+  .body {
+    padding-top: 4rem;
+    display: flex;
+  }
+
+  .text {
+    font-size: 50px;
+    width: 650px;
+  }
+}
+
+@media (max-width: 1100px){
+  
+  #index #card_teacher{
+    margin: 2px;
+    min-width: unset!important;
+  }
+  .benefits li {
+    margin-top: 8%;
+    width: 100%;
+  }
+  #menu .mobile_adjustment{
+    display: block!important;
+    padding-top: 50px!important;
+  }
+  #index .banner{ position: relative; justify-content: center;}
+  #index .banner_desc{ position: absolute; padding: 6%; text-align: center; justify-content: center;
+    display: flex;}
+  #index .subjects-carousel{ margin: 0.25rem 0!important;}
+  #index .content {
+    padding: 1% 2%;
+  }
+  #index .body-principal .text {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #index .rec-arrow{display: none;}
+  #index .popular-subjects .slider{margin: 0 .5rem 4rem .5rem!important;}
+  .mobileWrap{flex-wrap: wrap;} 
+  #index .popular-subjects .right-content { display: none;}
+  #index .slider.materias{ min-height: 450px;}
+  #index .slider.professores{ margin: 1rem!important;}
+  #index .popular-subjects .slide-body{ text-align: center; margin-top: 1rem;}
+  #index .why-us{ margin-top: 2rem!important;}
+  #index .benefits {flex-wrap: wrap; justify-content: center!important;}
+  #index .benefits li{ margin-right: 0!important; width: 85%; text-align: center;}
+  
+}

@@ -1,0 +1,61 @@
+#help_page .header-help-container {
+  background-image: url("../../img/help_background.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 20rem;
+}
+
+.box-selection-container {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.box-selection-container ul {
+  width: 100%;
+}
+.footer-help a{ color: var(--primary-color)!important;}
+.footer-help a:hover{ color: var(--primary-hover)!important;}
+.box-selection-container ul li {
+  width: calc(25% - 0.5rem);
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 0.875rem 0.25rem;
+  text-align: center;
+  border: 0.0625rem solid #a9acaa;
+  border-radius: 0.5rem;
+  transition: all ease-in-out .2s;
+}
+.box-selection-container ul li:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 3px 0 rgb(48 48 48 / 30%), 0 4px 8px 3px rgb(48 48 48 / 15%);
+}
+.problem_hover_port { cursor: pointer; color: var(--primary-color); transition: all ease-in-out .2s;}
+.problem_hover_port:hover { color: var(--primary-hover);}
+
+.faq_container{border-left: thin solid #a9acaa; border-right: thin solid #a9acaa; border-top: thin solid #a9acaa; border-radius: 0.5rem;}
+.faq_container .faq_box{border-bottom: thin solid #a9acaa;}
+.faq_container .header-problem{font-size: .875rem; padding: 1rem 3.25rem 1rem 4rem; cursor: pointer; transition: all ease-in-out .2s;}
+.faq_container .header-problem:hover{background-color: #e4fffc;}
+.faq_container .problem-item-body {
+  padding: 0rem 3.25rem 1rem 5rem;
+  text-align: justify;
+}
+
+@media (max-width: 1100px){
+  .box-selection-container ul li {
+    width: 100%;
+  }
+  .box-selection-container{ width: 100%;}
+  .faq_container .header-problem{
+    padding: 1.5rem 2rem;
+    align-items: center;
+  }
+  .problem-item-body{
+    padding: 0rem 2.25rem 1rem 3rem!important;
+  }
+  #help_page .header-help-container{
+    background: none!important;
+    height: unset;
+    margin-top: 75px;
+  }
+}

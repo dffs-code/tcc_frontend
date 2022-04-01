@@ -1,0 +1,51 @@
+.request-data { opacity: .7; }
+.request-data b { color: #000!important; }
+#students_requests #card_requested[data-layout="0"] #reject_card,  #students_requests #card_requested[data-layout="0"] #accept_card, #pending_card{ display: none;}
+
+#card_requested[data-layout="0"] #pending_card { display: flex;}
+#pending_card  {right: 0; top: 0; width: 50px; height: 50px;  align-items: center; justify-content: center; background-color: #ff9800; border-radius: 0 0 0 30px; transition: all ease-in-out .2s; }
+#pending_card .pending {color: white; font-size: 21px; margin-top: -10px;}
+@media (max-width: 1100px){
+    .student-button { width: 85%!important; }
+    #card_requested .header-request{ max-width: 90%!important;}
+}
+#students_requests #card_requested[data-layout="3"] { background-color: #ffffff;}
+#students_requests #card_requested[data-layout="3"] .header-request, #card_requested[data-layout="3"] .body_solicitation {opacity: .5;}
+#card_requested[data-layout="3"] #accept_card, #card_requested[data-layout="3"] #reject_card{ display: none;}
+#rate_card {right: 15px; top: 15px; color: #FFDF00; transition: all ease-in-out .3s; z-index: 2;}
+#rate_card:hover {cursor: pointer; color: #d4af37;}
+#rate_card .star-svg{font-size: 25px;}
+
+#rating_modal .about_request .read_only p{
+    color: #7b7b7b;
+    margin-bottom: .2rem;
+    font-weight: bold;
+}
+
+#rating_modal .rating-values{
+    font-size: 30px!important;
+}
+
+#rating_modal .submit-rating{
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    display: block;
+    margin: 0 auto;
+    transition: ease-in-out .2s;
+}
+
+#rating_modal .cursor-pointer{
+    cursor: pointer;
+}
+#rating_modal {
+    padding: 2% 2% 0 2%
+}
+
+#rating_modal .submit-rating:hover{
+    background-color: var(--secondary-hover);
+}
+#rate_card .MuiRating-root {font-size: 1.4rem!important;}
+
+
+
+

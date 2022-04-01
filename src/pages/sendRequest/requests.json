@@ -1,0 +1,11 @@
+
+  {
+    "teacher_id": 1,
+    "subject_id": 4,
+    "nameSubject": "Python",
+    "nameTeacher": "Greta Thunberg",
+    "stars": 3, 
+    "assessments": "300 Avaliações",
+    "price": "R$ 50/h",
+    "imageTeacher": "https://randomuser.me/api/portraits/women/73.jpg"
+  }

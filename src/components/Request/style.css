@@ -1,0 +1,9 @@
+#send_request .modalidade-container{ border: 1px solid transparent; padding: 5px; box-shadow: rgba(17, 17, 26, 0.04) 0px 4px 16px, rgba(17, 17, 26, 0.04) 0px 8px 24px, rgba(17, 17, 26, 0.04) 0px 16px 56px; position: relative; display: flex;}
+#send_request .MuiSelect-icon { color: var(--secondary-color)!important;}
+#send_request .MuiInput-underline:before, #send_request .MuiInput-underline:after{ display: none!important;}
+#send_request .MuiSelect-select:focus{ background-color: #fff;}
+#send_request .button-agenda{ text-align: center; color: #fff; font-weight: 700; background-color: var(--secondary-color); font-size: .8rem; text-transform: none}
+#send_request .submit-request{ background-color: var(--primary-color); color: #fff; max-width: 50%; display: block; margin: 0 auto; text-transform: none;font-weight: 700;}
+.notification span{ color: var(--primary-color); font-size: .7rem; font-weight: bold;}
+
+.schedule-container h2{font-size: 21px;}

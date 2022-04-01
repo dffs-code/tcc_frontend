@@ -1,0 +1,20 @@
+[
+    {
+      "id":10,
+      "price":50,
+      "star":4,
+      "foto":"https://scontent.fcgh13-1.fna.fbcdn.net/v/t1.18169-9/12004911_704995239634979_4595515403140941587_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=174925&_nc_eui2=AeEG4WjAhwgWCdc_az3Cq-bHTwNeMbFfwZZPA14xsV_BlvLRI1v9qpGL8EbUCHY50FM700nW_tNc9GAKqO18NqsN&_nc_ohc=Bncv08E4wxMAX9OpPud&_nc_ht=scontent.fcgh13-1.fna&oh=3b58573f7199cefa01f7e4c1a8c2e376&oe=61670E99",
+      "nome":"Daniel Big Ant",
+      "materia": "React",
+      "estado":"SP",
+      "cidade":"Franco da rocha",
+      "localizacao": "São Paulo",
+      "textoBreve": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum neque urna, consequat id mattis sit amet, maximus vitae leo. Nulla interdum tortor id cursus semper",
+      "materias":["Música","Programação","Filosofia"],
+      "totalAvaliacoes":302,
+      "melhorMateria":"Música",
+      "tempoMedio": 5,
+      "materia_tot":3
+
+    }
+]

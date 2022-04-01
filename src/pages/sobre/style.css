@@ -1,0 +1,138 @@
+#about_us .banner-about {
+    background-image: url("../../img/banner-about.jpg");
+    background-size: cover;
+  
+    width: 100%;
+    height: 448px;
+  }
+  
+ #about_us .icon-teacher{
+     max-width: 100%;
+     width: 400px;
+ }
+ #about_us .quemsomos {
+     background-color: #edfffd;
+ }
+
+#about_us .border {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+    border: 1px transparent!important;
+}
+#about_us .card:hover .border {
+    border: 1px solid var(--primary-color)!important;
+    
+}
+#about_us .card {
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#about_us .card.lucas::before{
+    content: "";
+    background: url("../../img/lucas_bg_color.png") center center no-repeat;
+    background-size: 300px;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    position: absolute;
+    transition: background 0.8s;
+}
+
+#about_us .card.lucas:hover::before{
+    content: "";
+    background: url("../../img/lucas_bg_color.png") top center no-repeat;
+    background-size: 650px;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    filter: brightness(0.2);
+}
+
+#about_us .card.daniel::before{
+    content: "";
+    background: url("../../img/daniel_bg.png") center center no-repeat;
+    background-size: 300px;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    position: absolute;
+    transition: background 0.8s;
+}
+
+#about_us .card.daniel:hover::before{
+    content: "";
+    background: url("../../img/daniel_bg.png") top center no-repeat;
+    background-size: 400px;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    filter: brightness(0.2);
+}
+
+#about_us .card.rafael::before{
+    content: "";
+    background: url("../../img/rafael_bg.png") center center no-repeat;
+    background-size: 300px;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    position: absolute;
+    transition: background 0.8s;
+}
+
+#about_us .card.rafael:hover::before{
+    content: "";
+    background: url("../../img/rafael_bg.png") top center no-repeat;
+    background-size: 650px;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    filter: brightness(0.2);
+}
+
+#about_us .cards_fundadores h5,#about_us .cards_fundadores p {
+    color: #fff;
+    opacity: 0;
+    transition: opacity 1s;
+}
+#about_us .cards_fundadores svg{
+    font-size: 20px;
+}
+#about_us .cards_fundadores a{
+    opacity: 0;
+    transition: opacity 1s;
+}
+#about_us .cards_fundadores .card:hover a {
+    opacity: 1;
+}
+#about_us .cards_fundadores .card:hover h5, #about_us .cards_fundadores .card:hover p {
+    opacity: 1;
+}
+#about_us .icons {
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+#about_us .icons a{
+    color: #fff;
+
+}
+#about_us .icons a:hover{
+    color: var(--primary-color);
+}

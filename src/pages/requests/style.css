@@ -1,0 +1,43 @@
+#teachers_requests .main-content, #students_requests .main-content{margin-left: 300px; margin-right: 0px!important;height: auto;}
+#card_requested { padding: 15px 20px 40px; border: 0px solid transparent; border-radius: 25px; box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; min-width: 850px;}
+#card_requested[data-layout="1"] { background-color: #f2fff2;}
+#card_requested[data-layout="2"] { background-color: #fcebeb;}
+
+#reject_card  {right: 0; top: 0; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background-color: #E53E3E; border-radius: 0 0 0 30px; transition: all ease-in-out .2s; cursor:pointer}
+#reject_card .reject {color: white; font-size: 21px; margin-top: -10px;}
+#reject_card:hover  {filter: brightness(.9);}
+
+#accept_card  {right: 0; bottom: 0; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background-color: #4caf50; border-radius: 30px 0 0 0; transition: all ease-in-out .2s; cursor:pointer}
+#accept_card:hover  {filter: brightness(1.1);}
+#accept_card .accept {color: white; font-size: 21px; margin-top: -5px;}
+
+#card_requested[data-layout="1"] #reject_card { display: none;}
+#card_requested[data-layout="2"] #reject_card { background-color: transparent;}
+#card_requested[data-layout="2"] #reject_card .reject {color: #E53E3E; font-size: 21px; margin-top: -10px;}
+
+#card_requested[data-layout="2"] #accept_card { display: none;}
+#card_requested[data-layout="1"] #accept_card { background-color: transparent;}
+#card_requested[data-layout="1"] #accept_card .accept {color: #4caf50; font-size: 21px; margin-top: -10px;}
+
+#card_requested .body-request { max-width: 80%;}
+#card_requested .body-request b { color: var(--primary-color);}
+
+#card_requested #google_alike > div{ width: 85px; height: 85px; font-size: 1.6rem;}
+#modal_form .accepted{background-color: #4caf50; color: #fff;}
+#modal_form .rejected{background-color: #E53E3E; color: #fff;}
+#modal_form .accepted:hover, #modal_form .rejected:hover {filter: brightness(.9);}
+#modal_form .notification .rejeitar {color: var(--secondary-color)!important;}
+
+#motivational img{ max-width: 100%; width: 250px;}
+#motivational .button-tips { width: 50%; padding: 10px 40px; border: 0; background-color: var(--primary-color); margin: 50px auto; display: block; border-radius: 25px; color: #fff; font-size: 1.2rem; transition: all ease-in-out .2s;}
+#motivational .button-tips:hover { filter: brightness(.9);}
+
+@media (max-width: 1100px){
+    #card_requested { min-width: unset;}
+    #rate_card{top: 10px; right: 5px;}
+    #send_request { margin-right:1rem!important; margin-left: 1rem!important;}
+    #send_request #modal_form .modal-content { padding: 20px 0px ;}
+    .react-datepicker-wrapper .btn-register { width: 100%!important;}
+    #send_request .submit-request { max-width: 100%; width: 100%; background-color: var(--secondary-color);}
+
+}

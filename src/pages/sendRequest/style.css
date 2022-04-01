@@ -1,0 +1,74 @@
+#send_request .teacher-container {
+  font-family: 'Nunito', sans-serif!important;
+}
+
+#send_request .teacher-container img {
+  height: 80px;
+  width: 80px;
+  border-radius: 100%; 
+}
+
+#send_request .teacher-container-2 {
+  margin-bottom: 2rem;
+}
+
+#send_request .info-container {
+  font-weight: bold;
+}
+
+#send_request .subjectName {
+  font-size: 24px;
+}
+
+#send_request .nameTeacher {
+  font-size: 18px;
+}
+
+#send_request .info-container {
+  margin-left: 1rem;
+}
+
+#send_request .price-tag {
+  padding-top: 10px;
+}
+
+#send_request .price-tag span {
+  padding: 3px 25px;
+  border-radius: 30px;
+  color: #009f8f;
+  background-color: #d5edec;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+
+#send_request .tip-content img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 1.5rem;
+}
+
+#send_request .tip-container ul {
+  list-style: inside;
+}
+
+#send_request .tip-container h5 {
+  font-weight: bold;
+  font-size: 1.3rem; 
+}
+
+#send_request .tip-container li{
+  font-size: 1rem;
+}
+
+#send_request .assessments-content span {
+  font-size: 0.8rem; 
+}
+
+#send_request .schedule-container {
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+#modal_form {
+  max-width: 800px!important;
+}

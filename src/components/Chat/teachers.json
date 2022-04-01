@@ -1,0 +1,27 @@
+[
+  {
+    "id":10,
+    "foto":"https://randomuser.me/api/portraits/med/men/75.jpg",
+    "nome":"Lucas Simões",
+    "ultimaMensagem": "Ok, marcado então!",
+    "dataUltimaMensagem": "2 dias"
+  },{
+    "id":11,
+    "foto":"https://randomuser.me/api/portraits/med/women/58.jpg",
+    "nome":"Jeanne Mitchell",
+    "ultimaMensagem": "Ok, marcado então!",
+    "dataUltimaMensagem": "2 dias"
+  },{
+    "id":12,
+    "foto":"https://randomuser.me/api/portraits/med/men/90.jpg",
+    "nome":"William Leal",
+    "ultimaMensagem": "Espero a resposta",
+    "dataUltimaMensagem": "4 dias"
+  },{
+    "id":12,
+    "foto":"https://randomuser.me/api/portraits/med/men/79.jpg",
+    "nome":"Abdül Holtman",
+    "ultimaMensagem": "Perfeito, até quarta",
+    "dataUltimaMensagem": "5 dias"
+  }
+]
